@@ -1,0 +1,147 @@
+.testimonials{
+	@include black_block;
+	
+.layout{
+	@include layout;
+	height:564px;
+@media screen and (max-width: 1279px){
+    @include layout_respos_one;
+    height:564px;
+} 	
+@media screen and (max-width: 1023px){
+    @include layout_respos_one;
+    width:780px;
+    height:564px;
+}
+@media screen and (max-width: 895px){
+    @include layout_respos_one;
+    width:680px;
+    height: 564px;
+}
+@media screen and (max-width: 735px){
+    @include layout_respos_one;
+    width:580px;
+    height: 564px;
+}
+@media screen and (max-width: 567px){
+    @include layout_respos_one;
+    width:480px;
+    height: auto;
+}
+@media screen and (max-width: 479px){
+    @include layout_respos_one;
+    width:320px;
+    height:auto;
+}	
+h3{
+    @include headline;
+	@include underline-after;
+	@include underline-before;
+@media screen and (max-width: 735px){
+    font-size:2.3em;
+    &:before{
+    	width:8.5%;
+    }
+    &:after{
+    	width:11.5%;
+    }
+}
+@media screen and (max-width: 567px){
+	font-size:2em;
+	&:before{
+    	width:10%;
+    }
+    &:after{
+    	width:13.5%;
+    }
+}
+@media screen and (max-width: 479px){
+    font-size:1.8em;
+    padding:80px 0;
+} 		
+span{
+	font-weight:700;
+}	
+}
+.slider_third{
+	padding:66px 0 66px 0;
+    text-align: center;
+@media screen and (max-width: 479px){
+    padding:44px 0 44px 0;
+}    
+
+.first-slide{
+	padding:0px 2px;
+p{
+	@include paragraph-slider;
+@media screen and (max-width: 735px){
+	font-size:1em;
+}
+@media screen and (max-width: 479px){
+    font-size:0.87em;
+}		
+}
+.name{
+	@include paragraph-name;
+@media screen and (max-width: 735px){
+	font-size:1em;
+}
+@media screen and (max-width: 479px){
+    font-size:0.87em;
+}	
+span{
+	font-weight: 300;
+}	
+}	
+}
+.second-slide{
+    padding:0px 2px;
+p{
+	@include paragraph-slider;
+@media screen and (max-width: 735px){
+	font-size:1em;
+}
+@media screen and (max-width: 479px){
+    font-size:0.87em;
+}	
+}
+.name{
+	@include paragraph-name;
+@media screen and (max-width: 735px){
+	font-size:1em;
+}
+@media screen and (max-width: 479px){
+    font-size:0.87em;
+}	
+span{
+	font-weight: 300;
+}	
+}	    
+}
+.third-slide{
+	 padding:0px 2px;	 
+p{
+	@include paragraph-slider;
+@media screen and (max-width: 735px){
+	font-size:1em;
+}
+@media screen and (max-width: 479px){
+    font-size:0.87em;
+}	
+}
+.name{
+	@include paragraph-name;
+@media screen and (max-width: 735px){
+	font-size:1em;
+}
+@media screen and (max-width: 479px){
+    font-size:0.87em;
+}	
+span{
+	font-weight: 300;
+}	
+}	    
+}	
+}	
+}
+}

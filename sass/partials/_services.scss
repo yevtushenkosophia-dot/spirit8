@@ -1,0 +1,130 @@
+.services{
+	@include black_block;
+	background-color:#ffffff;
+.layout{
+	@include layout;
+@media screen and (max-width: 1279px){
+    @include layout_respos_one;
+    margin-bottom: 40px;
+    height: 756px;
+}
+@media screen and (max-width: 1023px){
+    @include layout_respos_one;
+    width:780px;
+    margin-bottom: 40px;
+    height: 756px;
+} 
+@media screen and (max-width: 895px){
+    @include layout_respos_one;
+    width:680px;
+    height: 1040px;
+}
+@media screen and (max-width: 735px){
+    @include layout_respos_one;
+    width:580px;
+    height: auto;
+}
+@media screen and (max-width: 567px){
+    @include layout_respos_one;
+    width:480px;
+    height: auto;
+}
+@media screen and (max-width: 479px){
+    @include layout_respos_one;
+    width:320px;
+    height:auto;
+}  	
+.serv_top{
+	width:100%;
+	text-align:center;
+h3{
+	@include headline;
+	padding:100px 0 92px 0;
+	color:#222222;
+	@include underline-after;
+	@include underline-before;
+@media screen and (max-width: 735px){
+    font-size:2.3em;
+    &:before{
+    	width:8.5%;
+    }
+    &:after{
+    	width:11.5%;
+    }
+@media screen and (max-width: 567px){
+	font-size:2em;
+	&:before{
+    	width:10%;
+    }
+    &:after{
+    	width:13.5%;
+    }
+}    
+}	
+span{
+	font-weight:700;
+}	
+}
+p{
+	@include paragraph-italic;
+}	
+}
+.serv_container{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+@media screen and (max-width: 895px){
+    flex-wrap: wrap;
+}	
+li{
+	width:23%;
+	padding:25px;
+@media screen and (max-width: 1023px){
+   width:25%;
+}
+@media screen and (max-width: 895px){
+	width:30%;
+}
+@media screen and (max-width: 567px){
+	width:39%;
+}
+@media screen and (max-width: 479px){
+	width:62%;
+}
+.top-li{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	width:263px;
+	height: 126px;
+	background:url('../images/marketing-circle.png')no-repeat;
+	background-position-x:center;
+@media screen and (max-width: 1023px){
+    width:200px;
+}	
+img{
+    width:auto;
+}	
+}
+.body-li{
+	text-align:center;
+
+h4{
+	font-size:1.56em;
+	font-family:$font-family-logo;
+	font-weight:600;
+	text-transform: uppercase;
+	color:#222222;
+	padding:30px 0 25px 0;
+}
+p{
+	font-size:0.87em;
+	line-height: 21px;
+	color:#222222;
+	font-family:$font-family-logo;
+}
+}
+}	
+}	
+}	
+}

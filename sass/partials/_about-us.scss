@@ -1,0 +1,217 @@
+.about{
+	@include layout;
+	margin-bottom:100px;
+@media screen and (max-width: 1279px){
+    @include layout_respos_one;
+    margin-bottom:40px;
+    height: 756px;
+}  
+@media screen and (max-width: 1023px){
+    @include layout_respos_one;
+    width:780px;
+    height: 756px;
+    margin-bottom:80px;
+}
+@media screen and (max-width: 895px){
+    @include layout_respos_one;
+    width:680px;
+    height: 756px;
+}
+@media screen and (max-width: 735px){
+    @include layout_respos_one;
+    width:580px;
+    height: auto;
+}
+@media screen and (max-width: 567px){
+    @include layout_respos_one;
+    width:480px;
+    height: auto;
+}
+@media screen and (max-width: 479px){
+    @include layout_respos_one;
+    width:320px;
+    height:auto;
+}
+h3{
+	font-family:$font-family-logo;
+	font-weight:600;
+	font-size:3em;
+	margin:0 auto;
+	text-align:center;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	border-bottom: 1px solid #b5b5b5;
+	width:398px;
+    padding:48px 0;
+    margin-top:100px;
+@media screen and (max-width: 1279px){
+	margin-top:50px;
+	padding:28px 0;
+} 
+@media screen and (max-width: 895px){
+	font-size: 2.8em;
+}
+@media screen and (max-width: 479px){
+	font-size:2em;
+	width:auto;
+}
+}	
+.mac_imag{
+	float:left;
+	padding:146px 16px;
+	overflow:hidden;
+	width:52%;
+@media screen and (max-width: 1023px){
+	padding:146px 0px;
+}
+@media screen and (max-width: 895px){
+	padding:100px 0 16px 0;
+	width:55%;
+}
+@media screen and (max-width: 735px){
+	width:100%;
+	padding:50px 0 16px 0;
+}
+@media screen and (max-width: 479px){
+	padding:30px 10px 16px 10px;
+}
+}	
+.text-about{
+	float:right;
+	padding:46px 0;
+	overflow:hidden;
+	width:42%;
+@media screen and (max-width: 1279px){
+	padding:26px 0;
+}
+@media screen and (max-width: 1023px){
+	width:45%;
+}
+@media screen and (max-width: 895px){
+	float:none;
+}
+@media screen and (max-width: 735px){
+	width:100%;
+}
+@media screen and (max-width: 567px){
+	padding:10px 10px 25px 10px;
+}	
+h4{
+	font-family:$font-family-logo;
+	font-size:2.12em;
+	color:#222222;
+	text-transform: uppercase;
+	padding:10px 0;
+	position: relative;
+	font-weight:400;
+@media screen and (max-width: 1023px){
+	font-size: 1.8em;
+}
+@media screen and (max-width: 895px){
+	font-size:1.5em;
+}	
+	&:after{
+		content: '';
+		position: absolute;
+        top:56px;
+        left:0;
+		width:100px;
+		border:2px solid #fcac45;
+		border-radius:1px;
+	}
+span{
+	font-weight:700;
+}	
+}
+.color-pink{
+	font-size:1.6em;
+	color:#ff4b5a;
+	padding:30px 0 0px 0;
+	font-family:$font-family-main;
+@media screen and (max-width: 1279px){
+	padding:20px 0 0 0;
+}
+@media screen and (max-width: 895px){
+	font-size: 1.2em;
+	padding:26px 0 0 0;
+}	
+}
+.text-story{
+	font-family:$font-family-main;
+	font-size:1.2em;
+	color:#4d5866;
+	line-height: 24px;
+	padding:20px 0;
+@media screen and (max-width: 1279px){
+	padding:10px 0;
+}
+@media screen and (max-width: 895px){
+	font-size: 1em;
+}	
+}
+.underlist-text{
+	font-size:1.12em;
+	font-family:$font-family-logo;
+	width:81%;
+	margin:0 auto;
+	color:#6c6c6c;
+	line-height: 22px;
+	padding:12px 0 10px 0;
+@media screen and (max-width: 1279px){
+	padding:8px 0;
+}
+@media screen and (max-width: 895px){
+	width:92%;
+	font-size:1em;
+}	
+}
+.list-one{
+	padding:22px 0;
+	width:85%;
+	margin:0 auto;
+@media screen and (max-width: 1279px){
+	padding:11px 0;
+}
+@media screen and (max-width: 895px){
+	width:96%;
+}
+li{
+	color:#656565;
+	font-style: italic;
+	font-family:$font-family-logo;
+	padding:12px 0;
+span{
+	font-style:normal;
+	font-weight:600;
+	&:before{
+	    content: url('../images/icon-list.png');
+	    padding:0 10px;
+	}
+}	
+}	
+}
+.browse-click{
+	background-color:#ffff;
+	border:1px solid rgba(127, 127, 127, 0.9);
+	height:48px;
+	border-radius:4px;
+	width:194px;
+	font-size:0.75em;
+	margin:0 48px;
+@media screen and (max-width: 895px){
+	margin:0 12px;
+}	
+span{
+    color:#7f7f7f;
+    font-weight:600;
+	text-transform: uppercase;
+	font-family:$font-family-logo;
+	padding:4px 0;
+	&:before{
+		content: url('../images/button-forma.png');
+		padding:5px
+	}
+}	
+}	
+}
+}	

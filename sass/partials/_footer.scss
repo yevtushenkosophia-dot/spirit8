@@ -1,0 +1,70 @@
+footer {
+	@include black_block;
+.layout{
+	@include layout;
+	height: 120px;
+@media screen and (max-width: 1279px){
+	  @include layout_respos_one;
+    width:980px;
+    height:120px;
+}	
+@media screen and (max-width: 1023px){
+    @include layout_respos_one;
+    width:780px;
+    height:120px;
+}
+@media screen and (max-width: 895px){
+    @include layout_respos_one;
+    width:680px;
+    height: 120px;
+}
+@media screen and (max-width: 735px){
+    @include layout_respos_one;
+    width:580px;
+    height:120px;
+}
+@media screen and (max-width: 567px){
+    @include layout_respos_one;
+    width:480px;
+    height: 120px;
+}
+@media screen and (max-width: 479px){
+    @include layout_respos_one;
+    width:320px;
+    height:120px;
+}	
+h3{
+	float: left;
+	color:#858585;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	font-family: $font-family-main;
+	padding:36px 0;
+@media screen and (max-width: 479px){
+	float:none;
+	text-align: center;
+	padding:20px 0 10px 0;
+}	
+}
+.contact-links{
+	float:right;
+	display:flex;
+@media screen and (max-width: 479px){
+    float:none;
+    width:80%;
+    margin:0 auto;
+}	
+li{
+    padding:36px 0;
+@media screen and (max-width: 479px){
+	padding:20px 0;
+}    
+a{
+	display:block;
+	width:100%;
+	padding:0 8px;
+}    
+}	
+}	
+}	
+}
